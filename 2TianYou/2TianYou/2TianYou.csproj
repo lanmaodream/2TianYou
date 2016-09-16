@@ -172,9 +172,12 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\common\common-widget.css" />
     <Content Include="Content\css\common\globel-iconfont.css" />
+    <Content Include="Content\css\common\public-side-toolbar.css" />
     <Content Include="Content\css\common\ui.css" />
-    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\css\common\view-csscore.css" />
+    <Content Include="Content\css\common\view-header.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -194,6 +197,7 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\Demo\Index.html" />
+    <Content Include="Views\Demo\travels.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -222,6 +226,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\img\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
