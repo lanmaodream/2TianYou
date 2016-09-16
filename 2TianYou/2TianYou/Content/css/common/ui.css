@@ -1580,7 +1580,7 @@ body.theme-blue {
 }
 
 body.theme-blue #page {
-	background: url(/static/common/ui/css-core/css-theme/img/bg-middle_8c69fa02.png) no-repeat center 132px
+	/*background: url(/static/common/ui/css-core/css-theme/img/bg-middle_8c69fa02.png) no-repeat center 132px*/
 }
 
 body.theme-blue a {
@@ -2357,7 +2357,7 @@ a.follow-btn em,a.follow-btn:hover em,button.follow-btn em em,button.follow-btn:
 }
 
 .user-level,.user-level-grey {
-	background: url(/static/common/ui/css-core/css-ui/img/level_d738ca14.png) no-repeat 0 0;
+	/*background: url(/static/common/ui/css-core/css-ui/img/level_d738ca14.png) no-repeat 0 0;*/
 	padding-left: 50px;
 	margin-left: 5px;
 	line-height: 66px;
@@ -5573,12 +5573,12 @@ body.theme-ipad-top {
 }
 
 #logo {
-	background: url(/Content/img/logo.png) no-repeat
+    background: url(../../img/logo.png) no-repeat;
 }
 
-.ie6 #logo {
+/*.ie6 #logo {
 	background: url(/static/widget/common/header/logo/img/logo_bb_b1303912.png) no-repeat
-}
+}*/
 
 body.theme-blue .logo,body.theme-new-blue .logo,body.theme-black .logo {
 	margin: 13px 0 14px
@@ -5740,7 +5740,7 @@ body.theme-black .nav-channel .nav-item-haslist>a .nav-text,body.theme-black .na
 }
 
 .lte9 .nav-channel .nav-item a .ico-arrow,.lte9 .nav-channel .nav-item .nav-text .ico-arrow {
-	background: url(/static/widget/common/header/nav-channel/img/ico-nav-channel_75ccc137.png) no-repeat;
+	/*background: url(/static/widget/common/header/nav-channel/img/ico-nav-channel_75ccc137.png) no-repeat;*/
 	background-position: 0 0;
 	margin: 0 0 0 5px
 }
@@ -5820,7 +5820,7 @@ body.theme-black .nav-channel .nav-item-haslist>a .nav-text,body.theme-black .na
 }
 
 .nav-channel .nav-icon-hot,.nav-channel .nav-icon-new,.nav-channel .nav-icon-ding {
-	background: url(/static/widget/common/header/nav-channel/img/ico-nav-channel_75ccc137.png) no-repeat
+	/*background: url(/static/widget/common/header/nav-channel/img/ico-nav-channel_75ccc137.png) no-repeat*/
 }
 
 .nav-channel .nav-item {
@@ -6810,7 +6810,7 @@ body.theme-black .header-egc .ani00,body.theme-black .header-egc .ani01,body.the
 }
 
 #footer .footer-weibo {
-	background: url("/static/widget/common/footer/img/footer-icon_7c892cf5.png") no-repeat 0 0;
+	/*background: url("/static/widget/common/footer/img/footer-icon_7c892cf5.png") no-repeat 0 0;*/
 	height: 20px;
 	padding-left: 30px;
 	display: inline-block;
@@ -6818,7 +6818,7 @@ body.theme-black .header-egc .ani00,body.theme-black .header-egc .ani01,body.the
 }
 
 #footer .footer-app {
-	background: url("/static/widget/common/footer/img/footer-icon_7c892cf5.png") no-repeat 0 -50px;
+	/*background: url("/static/widget/common/footer/img/footer-icon_7c892cf5.png") no-repeat 0 -50px;*/
 	height: 20px;
 	padding-left: 20px;
 	display: inline-block

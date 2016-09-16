@@ -24,6 +24,7 @@
     <!--[if lt IE 7]><script src="/static/common/lib/iepngfix_a1bc0ca2.js" type="text/javascript"></script><![endif]-->
     <!--<link rel="stylesheet" type="text/css" href="~/Content/css/widget/common/globel-iconfont.css" rel="stylesheet" />-->
     <link href="../../Content/css/common/ui.css" rel="stylesheet" />
+    <link href="../../Content/css/notes-page.css" rel="stylesheet" />
     <!--<link rel="stylesheet" type="text/css" href="/static/common/pkg/ui_f4d750d4.css" />
     <link rel="stylesheet" type="text/css" href="/static/search/pkg/notes-page_f86e3efd.css" />
     <script type="text/javascript" src="/static/common/lib/base_fd238617.js"></script>-->
@@ -39,7 +40,7 @@
                                 <div class="msg-wrapper">
                                     <span class="inline-block msg-word">消息</span>
                                     <span id="J_user-bar-lv-msg-count" class="lv-msg-count"></span>
-                                    <b class="header-iconfont"></b>
+                                    <b class="header-iconfont"></b>
                                 </div>
                                 <div class="drop-menu" id="J_nav-channel-user-msg-drop-menu">
                                     <span class="sns-msg"><a href="/user/message?type" =1 ="">消息</a></span>
@@ -56,51 +57,57 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="item user-wealth-bar clearfix"><a target="_blank" href="/user/achieve/bcf3c67d0ea58a1c44928566/" data-nslog="{'type':'502','cmd':'click','pos':'achieve-top-level'}" class="nslog user-level i-level-1"></a><a target="_blank" href="/mall/userwealthdetail/" title="财富">财富值：0</a></div><div class="item item-user-info" id="J-item-user-info">
-                                <span class="item J_user-bar-user-name item-user-avatar"><a target="_blank" href="/user/bcf3c67d0ea58a1c44928566"><img class="user-avatar" src="//gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/abpic/item/fc1f4134970a304e72e1c944d2c8a786c8175c48.jpg"><i class="user-avater-circle"></i></a> </span><div class="item user-bar-center" id="J_nav-channel-user-center"><a href="/user/bcf3c67d0ea58a1c44928566" class="J_nav-channel-user-center user-center">懒猫一梦<b class="header-iconfont">&#xe60a;</b></a></div><div class="drop-menu" id="J_nav-channel-user-center-drop-menu">
+                            <div class="item user-wealth-bar clearfix">
+                            </div>
+                            
+                            <div class="item item-user-info" id="J-item-user-info">
+                                <span class="item J_user-bar-user-name item-user-avatar">
+                                    <a target="_blank" href="/user/bcf3c67d0ea58a1c44928566">
+                                        <img class="user-avatar" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/abpic/item/fc1f4134970a304e72e1c944d2c8a786c8175c48.jpg">
+                                        <i class="user-avater-circle"></i>
+                                    </a>
+                                </span>
+                                <div class="item user-bar-center" id="J_nav-channel-user-center">
+                                    <a href="/user/bcf3c67d0ea58a1c44928566" class="J_nav-channel-user-center user-center">懒猫一梦<b class="header-iconfont"></b></a>
+                                </div>
+                                <div class="drop-menu" id="J_nav-channel-user-center-drop-menu">
                                     <div class="drop-menu-wrapper">
-                                        <b class="header-iconfont">&#xe60a;</b><ul class="menu-list">
-                                            <li class="sns-link">
-                                                <a href="/user/remark/bcf3c67d0ea58a1c44928566" class="nslog"
-                                                   data-nslog="{'type':100,'cmd':'click','pos':'nav-remark'}" data-type="remark">我的点评</a>
-                                            </li>
+                                        <b class="header-iconfont"></b>
+                                        <ul class="menu-list">
+                                            <li class="sns-link"> <a href="/user/remark/bcf3c67d0ea58a1c44928566" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-remark'}" data-type="remark">我的点评</a> </li>
                                             <li class="sns-link"><a href="/user/footprint/bcf3c67d0ea58a1c44928566" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-my-footprint', 'test':''}" data-type="footprint">我的足迹</a></li>
-                                            <li class="sns-link">
-                                                <a href="/user/pictravel/bcf3c67d0ea58a1c44928566" class="nslog"
-                                                   data-nslog="{'type':100,'cmd':'click','pos':'nav-my-pictravel'}" data-type="pictravel">我的画册</a>
-                                            </li>
-                                            <li class="sns-link">
-                                                <a href="/user/notes/bcf3c67d0ea58a1c44928566" class="nslog"
-                                                   data-nslog="{'type':100,'cmd':'click','pos':'nav-my-notes'}" data-type="notes">我的游记</a>
-                                            </li>
-                                            <li class="sns-link">
-                                                <a href="/user/plan/bcf3c67d0ea58a1c44928566" class="nslog"
-                                                   data-nslog="{'type':100,'cmd':'click','pos':'nav-my-plan'}" data-type="plan">我的行程</a>
-                                            </li>
-                                            <li class="sns-link">
-                                                <a href="/mall/userorderdetail/" class="nslog"
-                                                   data-nslog="{'type':100,'cmd':'click','pos':'nav-mall'}" data-type="userorderdetail">我的兑换</a>
-                                            </li>
+                                            <li class="sns-link"> <a href="/user/pictravel/bcf3c67d0ea58a1c44928566" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-my-pictravel'}" data-type="pictravel">我的画册</a> </li>
+                                            <li class="sns-link"> <a href="/user/notes/bcf3c67d0ea58a1c44928566" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-my-notes'}" data-type="notes">我的游记</a> </li>
+                                            <li class="sns-link"> <a href="/user/plan/bcf3c67d0ea58a1c44928566" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-my-plan'}" data-type="plan">我的行程</a> </li>
+                                            <li class="sns-link"> <a href="/mall/userorderdetail/" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-mall'}" data-type="userorderdetail">我的兑换</a> </li>
                                             <li class="sns-link"><a href="/user/achieve/" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-achieve'}" data-type="achieve">我的成就</a></li>
                                             <li class="sns-link" style="border-bottom: 1px solid #e7e8e9;margin-bottom: 5px;padding-bottom: 5px"><a href="/user/order/" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-order'}" pb-id="4722900">我的订单</a></li>
-                                            <li class="sns-link">
-                                                <a href="//gsp0.baidu.com/74oIbT3kAMgDnd_/?from=lvyou#lvyou" target="_blank" class="nslog"
-                                                   data-nslog="{'type':100,'cmd':'click','pos':'nav-ibaidu'}">百度中心</a>
-                                            </li>
-                                            <li class="sns-link user-setup">
-                                                <a href="/user/edit/info" class="J_user-bar-lv-edit lv-user-edit-info nslog"
-                                                   data-nslog="{'type':100,'cmd':'click','pos':'user-bar-edit'}"><i class="header-iconfont">&#xe607;</i>设置</a>
-                                            </li>
-                                            <li class="sns-link user-out"><a data-url="//passport.baidu.com/?logout" href="//passport.baidu.com/?logout&bdstoken=&u=http://lvyou.baidu.com/notes/" class="lv-userbar-logout-link"><i class="header-iconfont">&#xe60e;</i>退出</a></li>
+                                            <li class="sns-link"> <a href="//gsp0.baidu.com/74oIbT3kAMgDnd_/?from=lvyou#lvyou" target="_blank" class="nslog" data-nslog="{'type':100,'cmd':'click','pos':'nav-ibaidu'}">百度中心</a> </li>
+                                            <li class="sns-link user-setup"> <a href="/user/edit/info" class="J_user-bar-lv-edit lv-user-edit-info nslog" data-nslog="{'type':100,'cmd':'click','pos':'user-bar-edit'}"><i class="header-iconfont"></i>设置</a> </li>
+                                            <li class="sns-link user-out"><a data-url="//passport.baidu.com/?logout" href="//passport.baidu.com/?logout&amp;bdstoken=&amp;u=http://lvyou.baidu.com/notes/" class="lv-userbar-logout-link"><i class="header-iconfont"></i>退出</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div><div class="item user-control"></div>
+                            </div>
+                            <div class="item user-control"></div>
                         </div>
                     </div>
                 </div>
-                <h1 class="logo"><a id="logo" href="/" title="百度旅游" style="background: url(//gss0.bdstatic.com/5fo3dSag_xI4khGko9WTAnF6hhy/baidu/pic/item/b58f8c5494eef01fc418b95ae3fe9925bc317d25.png) no-repeat 0 0;_background: url(//gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/baidu/pic/item/a08b87d6277f9e2f873abc971c30e924b899f326.png) no-repeat 0 0"></a></h1><div class="search-area" id="J-search-area"><form class="search-form clearfix" name="search-form" method="get" action="/search"><a href="###" class="switch-query-type-btn" id="J-switchQueryBtn" data-index="0">目的地<i class="search-line">|</i>游记<b></b></a><ul id="J_search-type" class="search-type hide"><li class="search-type-selectd" data-index="0">目的地<i class="search-line">|</i>游记</li><li data-index="1">找人</li></ul><input name="word" class="search-word search-word-empty search-query nslog" data-nslog="{'type':100,'cmd':'click','pos':'search-click'}" type="text" maxlength="256" /><input name="word" class="search-word search-user nslog" data-nslog="{'type':100,'cmd':'click','pos':'search-click'}" type="text" maxlength="256" disabled="disabled" style="display:none" /><input type="hidden" name="fr" value="new" /><input type="hidden" value="1" name="form" /><button type="submit" class="search-btn header-iconfont nslog" data-nslog="{'type':100,'cmd':'click','pos':'other-search'}">&#xe608;</button></form></div>
+                <h1 class="logo"><a id="logo" href="/" title="百度旅游"></a></h1>
+                <div class="search-area" id="J-search-area">
+                    <form class="search-form clearfix" name="search-form" method="get" action="/search">
+                        <a href="###" class="switch-query-type-btn" id="J-switchQueryBtn" data-index="0">目的地<i class="search-line">|</i>游记<b></b></a>
+                        <ul id="J_search-type" class="search-type hide">
+                            <li class="search-type-selectd" data-index="0">目的地<i class="search-line">|</i>游记</li>
+                            <li data-index="1">找人</li>
+                        </ul>
+                        <input name="word" class="search-word search-word-empty search-query nslog" data-nslog="{'type':100,'cmd':'click','pos':'search-click'}" type="text" maxlength="256" />
+                        <input name="word" class="search-word search-user nslog" data-nslog="{'type':100,'cmd':'click','pos':'search-click'}" type="text" maxlength="256" disabled="disabled" style="display:none" />
+                        <input type="hidden" name="fr" value="new" />
+                        <input type="hidden" value="1" name="form" />
+                        <button type="submit" class="search-btn header-iconfont nslog" data-nslog="{'type':100,'cmd':'click','pos':'other-search'}"></button>
+                    </form>
+                </div>
                 
             </div>
             <nav class="nav-channel">
@@ -146,8 +153,7 @@
                     </div>
                     <div class="nav-channel-aside">
                         <ul class="clearfix">
-                            <li class="nav-item nav-item-exchange"><a href="/mall/" class="nav-link"><i class="header-iconfont"></i><span class="nav-text">免费兑换</span></a></li>
-                            <li class="nav-item nav-item-app"><a href="/app/baidulvyou?from=nav-channel" class="nav-link"><i class="header-iconfont"></i><span class="nav-text">手机应用</span></a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -158,29 +164,147 @@
         <section id="body">
             <div>
                 <div class="notes-head">
-                    <div class="small-icon">
-                        <a class="du-avatar usercard" data-usercard="58cad0c7258f4932521c9ffc" title="du行天使">
-                            <img alt="Du行天使" height="50"
-                                 src="//gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/pic/item/ea85a945e79fc77fcffca3b5.jpg" />
-                        </a>
-                    </div><div class="du-words"><img id="du-words-background" src="//gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/baidu/pic/item/3801213fb80e7bec86619a532e2eb9389a506bcd.jpg" alt="Du行天使" title="旅行，是你能买到的唯一一件使你更富有的东西。" /></div><div class="write-notes-btn"><a class="new-note-low" href="/notes/create" id="J_notes-create-new">发表游记攻略</a></div>
-                </div><div class="notes-content">
+                    <div class="du-words">
+                        <span class="hot-destinations-title">2天游、3天游、7天游、天天游，开心游 (*^__^*) 嘻嘻</span>
+                    </div>
+                    <div class="write-notes-btn">
+                        <a class="new-note-low" href="/notes/create" id="J_notes-create-new">发表游记攻略</a>
+                    </div>
+                </div>
+                <div class="notes-content">
                     <div class="search-notes-view clearfix" id="J_search-notes-view">
-                        <div id="J-notes-loading" class="notes-loading"><p>正在努力加载中，请稍候 ^_^</p></div><div class="du-recommendation-list">
+                        <div id="J-notes-loading" class="notes-loading" style="display: none;">
+                            <p>正在努力加载中，请稍候 ^_^</p>
+                        </div>
+                        <div class="du-recommendation-list">
                             <div class="du-recommendation">
-                                <span class="du-recommendation-title">版主力荐</span><div class="notes-categories"><ul><li><a pb-id="lv4872463" pb-index="0" id="latest-notes" class="notes-active" href="###">热门</a></li><li><a pb-id="lv4872463" pb-index="1" id="praise-notes" class="" href="###">优质精华</a></li><li><a pb-id="lv4872463" pb-index="2" id="guide-notes" class="" href="###">最新发表</a></li></ul></div><div class="hot-destinations">
-                                    <span class="hot-destinations-title">热门目的地</span><div class="notes-cms clearfix">
-                                        <ul class="notes-cms-group clearfix nslog-area" id="J_notes-cms-china"
-                                            data-nslog='{"type":469,"page":"search","cmd":"click","pos":"search-cms"}'></ul><ul class="notes-cms-group clearfix nslog-area" id="J_notes-cms-foreign"
-                                                                                                                                data-nslog='{"type":469,"page":"search","cmd":"click","pos":"search-cms"}'></ul>
+                                <span class="du-recommendation-title">版主力荐</span>
+                                <div class="notes-categories">
+                                    <ul>
+                                        <li><a pb-id="lv4872463" pb-index="0" id="latest-notes" class="notes-active" href="###">热门</a></li>
+                                        <li><a pb-id="lv4872463" pb-index="1" id="praise-notes" class="" href="###">优质精华</a></li>
+                                        <li><a pb-id="lv4872463" pb-index="2" id="guide-notes" class="" href="###">最新发表</a></li>
+                                    </ul>
+                                </div>
+                                <div class="hot-destinations">
+                                    <span class="hot-destinations-title">热门目的地</span>
+                                    <div class="notes-cms clearfix">
+                                        <ul class="notes-cms-group clearfix nslog-area" id="J_notes-cms-china" data-nslog="{&quot;type&quot;:469,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;search-cms&quot;}">
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="厦门" href="###">厦门</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="三亚" href="###">三亚</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="北京" href="###">北京</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="香港" href="###">香港</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="澳门" href="###">澳门</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="丽江" href="###">丽江</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="凤凰" href="###">凤凰</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="青岛" href="###">青岛</a></li>
+                                        </ul>
+                                        <ul class="notes-cms-group clearfix nslog-area" id="J_notes-cms-foreign" data-nslog="{&quot;type&quot;:469,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;search-cms&quot;}">
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="普吉岛" href="###">普吉岛</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="瑞士" href="###">瑞士</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="韩国" href="###">韩国</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="美国" href="###">美国</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="埃及" href="###">埃及</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="马尔代夫" href="###">马尔代夫</a></li>
+                                            <li><a class="scene-choose" pb-id="lv4872464" data-sname="澳大利亚" href="###">澳大利亚</a></li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </div><div class="notes-rank-content">
-                                <div class="notes-rank-tab"><div class="rank-popular-tab tab-item current">人气游记榜</div><div class="rank-classic-tab tab-item">经典游记榜</div></div><div class="notes-rank-table">
+                            </div>
+                            <div class="notes-rank-content">
+                                <div class="notes-rank-tab">
+                                    <div class="rank-popular-tab tab-item current">
+                                        人气游记榜
+                                    </div>
+                                    <div class="rank-classic-tab tab-item">
+                                        经典游记榜
+                                    </div>
+                                </div>
+                                <div class="notes-rank-table">
                                     <script id="rank-item-list" type="text/template">
                                         <div class="notes-list-info"><span class="notes-user-rank notes-rank#{index}">#{num}</span><a href="/user/#{uid}" data-usercard="#{uid}" target="_blank" class="notes-user usercard"><img class="master-avatar" src="#{avatar}" alt="#{uname}" /></a><a href="/notes/#{nid}" class="notes-info-title" title="#{complete_title}" target="_blank">#{title}</a></div>
-                                    </script><div class="notes-rank-list"></div><a href="/main/event/rank#notes-main" class="rank-check_more nslog" target="_blank" data-nslog='{"type":459,"page":"notes-channel","cmd":"click","pos":"get-channer-notes-rank"}'>查看更多热门游记<span class="rank-more-icon"></span></a>
+                                    </script>
+                                    <div class="notes-rank-list"></div>
+                                    <a href="/main/event/rank#notes-main" class="rank-check_more nslog" target="_blank" data-nslog="{&quot;type&quot;:459,&quot;page&quot;:&quot;notes-channel&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;get-channer-notes-rank&quot;}">查看更多热门游记<span class="rank-more-icon"></span></a>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-container" style="float: right; width: 230px;">
+                            <div class="item">
+                                <div class="notes-view-item-wrapper">
+                                    <div class="notes-view-item">
+                                        <span class="praised-bar"></span>
+                                        <div class="notes-view-title ">
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753402" target="_blank" class="waterfullimg nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-pic&quot;}"><img class="picalbum" src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/lvpics/w%3D300/sign=82b1c738b00e7bec23da05e11f2fb9fa/b2de9c82d158ccbfd731660d11d8bc3eb135417c.jpg" width="225" height="168" /></a>
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753401" target="_blank" class="item-title nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-title&quot;}">Real Russia A篇 概况—伊尔库茨克&amp;摩尔曼斯克</a>
+                                        </div>
+                                        <div class="notes-view-info">
+                                            <div class="list-item-user clearfix">
+                                                <span class="item-recommend">1</span>
+                                                <a target="_blank" class="avatar usercard nslog" data-usercard="86da44249394b94598c121d6" href="/user/86da44249394b94598c121d6" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-author&quot;}"><img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/pic/item/b58f8c5494eef01f88a1f2e2e4fe9925bc317d64.jpg" width="24" height="24" alt="FrancisLin9" /></a>
+                                                <a target="_blank" class="item-author usercard nslog" data-usercard="86da44249394b94598c121d6" href="/user/86da44249394b94598c121d6" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-author&quot;}">FrancisLin9</a>
+                                            </div>
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753401" target="_blank" class="item-des nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-desc&quot;}">Day3/4/5 伊尔库茨克 D5/6/7 摩尔曼斯克 要说对老毛子第一印象：这个大叔好凶，这个大妈好丰满，这个妹纸好漂亮~~~~~无论俄罗...</a>
+                                        </div>
+                                        <div class="count" style="height: 16px;">
+                                            <span class="reply-count">1</span>
+                                            <span class="view-count">2824</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow"></div>
+                            </div>
+                        </div>
+                        <div class="col-container" style="float: right; width: 230px;">
+                            <div class="item">
+                                <div class="notes-view-item-wrapper">
+                                    <div class="notes-view-item">
+                                        <span class="praised-bar"></span>
+                                        <div class="notes-view-title ">
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753402" target="_blank" class="waterfullimg nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-pic&quot;}"><img class="picalbum" src="https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/lvpics/w%3D300/sign=da28ee0e76cf3bc7e800cbece100babd/0e2442a7d933c8956c628a78d71373f082020090.jpg" width="225" height="168" /></a>
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753401" target="_blank" class="item-title nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-title&quot;}">Real Russia A篇 概况—伊尔库茨克&amp;摩尔曼斯克</a>
+                                        </div>
+                                        <div class="notes-view-info">
+                                            <div class="list-item-user clearfix">
+                                                <span class="item-recommend">1</span>
+                                                <a target="_blank" class="avatar usercard nslog" data-usercard="86da44249394b94598c121d6" href="/user/86da44249394b94598c121d6" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-author&quot;}"><img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/pic/item/b58f8c5494eef01f88a1f2e2e4fe9925bc317d64.jpg" width="24" height="24" alt="FrancisLin9" /></a>
+                                                <a target="_blank" class="item-author usercard nslog" data-usercard="86da44249394b94598c121d6" href="/user/86da44249394b94598c121d6" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-author&quot;}">FrancisLin9</a>
+                                            </div>
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753401" target="_blank" class="item-des nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-desc&quot;}">Day3/4/5 伊尔库茨克 D5/6/7 摩尔曼斯克 要说对老毛子第一印象：这个大叔好凶，这个大妈好丰满，这个妹纸好漂亮~~~~~无论俄罗...</a>
+                                        </div>
+                                        <div class="count" style="height: 16px;">
+                                            <span class="reply-count">1</span>
+                                            <span class="view-count">2824</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow"></div>
+                            </div>
+                        </div>
+                        <div class="col-container" style="float: right; width: 230px;">
+                            <div class="item">
+                                <div class="notes-view-item-wrapper">
+                                    <div class="notes-view-item">
+                                        <span class="praised-bar"></span>
+                                        <div class="notes-view-title ">
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753402" target="_blank" class="waterfullimg nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-pic&quot;}"><img class="picalbum" src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/lvpics/w%3D300/sign=82b1c738b00e7bec23da05e11f2fb9fa/b2de9c82d158ccbfd731660d11d8bc3eb135417c.jpg" width="225" height="168" /></a>
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753401" target="_blank" class="item-title nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-title&quot;}">Real Russia A篇 概况—伊尔库茨克&amp;摩尔曼斯克</a>
+                                        </div>
+                                        <div class="notes-view-info">
+                                            <div class="list-item-user clearfix">
+                                                <span class="item-recommend">1</span>
+                                                <a target="_blank" class="avatar usercard nslog" data-usercard="86da44249394b94598c121d6" href="/user/86da44249394b94598c121d6" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-author&quot;}"><img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/pic/item/b58f8c5494eef01f88a1f2e2e4fe9925bc317d64.jpg" width="24" height="24" alt="FrancisLin9" /></a>
+                                                <a target="_blank" class="item-author usercard nslog" data-usercard="86da44249394b94598c121d6" href="/user/86da44249394b94598c121d6" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-author&quot;}">FrancisLin9</a>
+                                            </div>
+                                            <a href="/notes/9bc83793c7305dfa7f3cc64d?" pb-id="lv4753401" target="_blank" class="item-des nslog" data-nslog="{&quot;type&quot;:470,&quot;page&quot;:&quot;search&quot;,&quot;cmd&quot;:&quot;click&quot;,&quot;pos&quot;:&quot;waterfall-desc&quot;}">Day3/4/5 伊尔库茨克 D5/6/7 摩尔曼斯克 要说对老毛子第一印象：这个大叔好凶，这个大妈好丰满，这个妹纸好漂亮~~~~~无论俄罗...</a>
+                                        </div>
+                                        <div class="count" style="height: 16px;">
+                                            <span class="reply-count">1</span>
+                                            <span class="view-count">2824</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow"></div>
                             </div>
                         </div>
                     </div>
